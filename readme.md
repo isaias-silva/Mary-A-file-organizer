@@ -43,14 +43,15 @@
     Exemplo de categorias:
 
     ```json
-    path:"pasta raiz onde tudo será organizado"
+    {
+    "path":"pasta raiz onde tudo será organizado",
     [
         { "name": "documents", "regex": "*.pdf|*.docx|*.txt|*.md" },
         { "name": "images", "regex": "*.jpg|*.jpeg|*.png|*.gif" },
         { "name": "videos", "regex": "*.mp4|*.mkv" },
         { "name": "musics", "regex": "*.mp3|*.m4a" },
         { "name": "code", "regex": "*.py|*.js|*.ts|*.html|*.css" }
-    ]
+    ]}
     ```
 
 2. Execute o script:
