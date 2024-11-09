@@ -1,6 +1,6 @@
 {
 
-  "path": "/mnt/0f3eccb8-5616-4734-9d3e-d6e86c622585/downloads",
+  "path": "/home/isaias/Downloads",
   "default_paths": [
     { "name": "documents", "regex": "*.pdf|*.docx" },
     { "name": "images", "regex": "*.jpg|*.jpeg|*.png|*.gif" },
