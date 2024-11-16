@@ -42,17 +42,51 @@
 
     Exemplo de categorias:
 
-    ```json
-    {
-    "path":"pasta raiz onde tudo será organizado",
-    [
-        { "name": "documents", "regex": "*.pdf|*.docx|*.txt|*.md" },
-        { "name": "images", "regex": "*.jpg|*.jpeg|*.png|*.gif" },
-        { "name": "videos", "regex": "*.mp4|*.mkv" },
-        { "name": "musics", "regex": "*.mp3|*.m4a" },
-        { "name": "code", "regex": "*.py|*.js|*.ts|*.html|*.css" }
+    ```json 
+   {"path": "your_path",
+    "default_paths": [
+        {
+            "name": "images",
+            "regex": "*.jpg|*.jpeg|*.png|*.gif|*.bmp|*.tiff|*.webp|*.avif|*.svg|*.ico"
+        },
+        {
+            "name": "videos",
+            "regex": "*.mp4|*.mkv|*.avi|*.mov|*.wmv|*.flv|*.webm|*.3gp|*.mpeg"
+        },
+        {
+            "name": "documents",
+            "regex": "*.pdf|*.docx|*.doc|*.txt|*.md|*.rtf|*.odt|*.xls|*.xlsx|*.ppt|*.pptx|*.epub|*.csv"
+        },
+        {
+            "name": "musics",
+            "regex": "*.mp3|*.m4a|*.flac|*.wav|*.aac|*.ogg|*.wma|*.alac"
+        },
+        {
+            "name": "install",
+            "regex": "*.deb|*.rpm|*.tar.gz|*.tar.bz2|*.tar.xz|*.snap|*.AppImage|*.exe|*.msi|*.pkg"
+        },
+        {
+            "name": "iso_images",
+            "regex": "*.iso|*.img|*.bin|*.cue|*.nrg"
+        },
+        {
+            "name": "code_files",
+            "regex": "*.js|*.html|*.css|*.py|*.java|*.c|*.cpp|*.ts|*.php|*.sh|*.json|*.xml|*.yml|*.yaml"
+        },
+        {
+            "name": "archives",
+            "regex": "*.zip|*.rar|*.7z|*.tar|*.gz|*.bz2|*.xz"
+        },
+        {
+            "name": "ebooks",
+            "regex": "*.epub|*.mobi|*.azw3|*.pdf|*.djvu|*.fb2"
+        },
+          {
+            "name": "access_keys",
+            "regex": "*.pem|*.key|*.crt|*.cer|*.pfx|*.p12|*.asc|*.gpg|*.pgp|*.ssh|*.id_rsa|*.id_dsa|*.ed25519"
+        }
     ]}
-    ```
+   ```
 
 2. Execute o script:
 
