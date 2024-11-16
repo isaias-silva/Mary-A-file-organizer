@@ -3,7 +3,7 @@ import os
 from config import getConfig
 
 today = str(datetime.date.today())
-filename = "/report-by-mary" + today + ".txt"
+filename = "/report-by-mary-" + today + ".txt"
 config= getConfig()
 
 def generate():

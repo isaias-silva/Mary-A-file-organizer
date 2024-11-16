@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from importlib.metadata import files
 from os.path import exists
 from pathlib import Path
 
