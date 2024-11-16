@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from importlib.metadata import files
 from os.path import exists
 from pathlib import Path
@@ -15,6 +16,9 @@ def getConfig():
         if not config:
             createConfig()
             return getConfig()
+
+        if len(sys.argv)>1:
+            config["path"]=sys.argv[1]
         return config
 
 
