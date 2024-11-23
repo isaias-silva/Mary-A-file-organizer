@@ -77,10 +77,6 @@
             "name": "archives",
             "regex": "*.zip|*.rar|*.7z|*.tar|*.gz|*.bz2|*.xz"
         },
-        {
-            "name": "ebooks",
-            "regex": "*.epub|*.mobi|*.azw3|*.pdf|*.djvu|*.fb2"
-        },
           {
             "name": "access_keys",
             "regex": "*.pem|*.key|*.crt|*.cer|*.pfx|*.p12|*.asc|*.gpg|*.pgp|*.ssh|*.id_rsa|*.id_dsa|*.ed25519"

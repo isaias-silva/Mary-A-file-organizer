@@ -14,6 +14,7 @@ config = getConfig()
 
 
 def proccess():
+    report.clear_past_reports()
     generatePaths()
     organizeFiles()
 
